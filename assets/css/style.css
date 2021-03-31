@@ -78,8 +78,36 @@ img {
   clear: both;
 }
 
-/* CSS media queries 420px */
+/* CSS media queries 768px */
+@media screen and (max-width: 768px) {
 
+  #lezioni .row>.left, #lezioni .row>.right, #steps .row>.left, #steps .row>.central{
+    width: 50%;
+    font-size: 15px;
+    padding: 10px 10px;
+  }
+
+  .row, #steps .row>.right, #why .row > .first, #why .row > .second, #why .row > .third{
+    width: 100%;
+    margin-top: 0;
+    padding: 15px 10px;
+  }
+
+  img{
+    height: 120px;
+  }
+
+  #steps{
+    background-color: #7abcd2;
+    border-top: 2px solid #46b4d9;
+    border-bottom: 2px solid #46b4d9;
+    
+  }
+ 
+}
+/* end CSS media queries 768px */
+
+/* CSS media queries 420px */
 @media screen and (max-width: 420px) {
 
   .row, #lezioni .row>.left, #lezioni .row>.right, #steps .row>.left, #steps .row>.central, #steps .row>.right{
@@ -99,17 +127,8 @@ img {
 
   #steps{
     background-color: white;
+    border: none;
   }
-
-
-
-  
-  
-
-
-  
-  
-  
-  
-
+ 
 }
+/* end CSS media queries 420px */
