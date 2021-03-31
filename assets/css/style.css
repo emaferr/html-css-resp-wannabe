@@ -1,3 +1,9 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .row {
   width: 992px;
   margin-left: auto;
@@ -70,4 +76,40 @@ img {
 
 .clear {
   clear: both;
+}
+
+/* CSS media queries 420px */
+
+@media screen and (max-width: 420px) {
+
+  .row, #lezioni .row>.left, #lezioni .row>.right, #steps .row>.left, #steps .row>.central, #steps .row>.right{
+    width: 100%;
+    margin-top: 0;
+    padding: 10px 5px;
+    font-size: 12px;
+  }
+
+  img{
+    height: 75px;
+  }
+
+  #lezioni div, #why div{
+    background-color: #F2F2CD;
+  }
+
+  #steps{
+    background-color: white;
+  }
+
+
+
+  
+  
+
+
+  
+  
+  
+  
+
 }
